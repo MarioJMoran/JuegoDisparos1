@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomain"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="20dp">
+
+        <!--POR DEFECTO TODOS LOS BOTONES ESTARÁN EN MAYÚSCULA,
+         DADO QUE NUESTRA TIPOLOGIA DE FUENTE ESCRIBE MAL LAS VOCALES
+         MAYUSCULAS, DEBEMOS DE PONER EL TEXTALLCAPS EN FALSE-->
+        <!--LOGIN-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTNLOGIN"
+            android:text="@string/BTNLOGIN"
+            android:background="@drawable/botonmenu"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <!--REGISTRO-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/BTNREGISTRO"
+            android:id="@+id/BTNREGISTRO"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/botonmenu"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

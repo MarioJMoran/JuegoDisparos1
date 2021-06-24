@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/escenario1"
+    tools:context=".EscenarioJuego">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--INFORMACIÓN-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/cascobanner"
+            android:orientation="horizontal"
+            >
+
+            <!--PANTALLA VALORES X Y-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--VALOR DE X-->
+                <TextView
+                    android:id="@+id/AnchoTV"
+                    android:text="@string/AnchoTv"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--VALOR DE Y-->
+                <TextView
+                    android:id="@+id/AltoTV"
+                    android:text="@string/AltoTv"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            <!--CONTADOR-->
+            <TextView
+                android:id="@+id/TvContador"
+                android:text="@string/TvContador"
+                android:textColor="@color/rojoCasco"
+                android:textSize="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <!--NOMBRE JUGADOR-->
+            <TextView
+                android:id="@+id/TvNombre"
+                android:text="@string/TvNombre"
+                android:textColor="@color/rojoCasco"
+                android:layout_marginStart="10dp"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--TIEMPO-->
+            <TextView
+                android:id="@+id/TvTiempo"
+                android:text="@string/TvTiempo"
+                android:textColor="@color/rojoCasco"
+                android:paddingStart="30dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--NAVE-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/TvNave"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/nave1"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="marron">#845638</color>
+    <color name="marronclaro">#92775e</color>
+    <color name="rojoStar">#ed1b25</color>
+    <color name="azulr2">#3c4da7</color>
+    <color name="rojor2">#c20719</color>
+    <color name="oroClaro">#e8eba5</color>
+    <color name="oroOscuro">#d29734</color>
+    <color name="oroViejo">#403519</color>
+    <color name="tattoineVioleta">#270538</color>
+    <color name="tattoineMelocoton">#f9aa6a</color>
+    <color name="tattoine">#6e1237</color>
+    <color name="redSith">#d21917</color>
+    <color name="rojocasiblanco">#f79b47</color>
+    <color name="rankingJug1">#9eadaa</color>
+    <color name="rankingJug2">#445449</color>
+    <color name="estadisticasJug">#ccd8de</color>
+    <color name="botonCambioPass1">#f98a31</color>
+    <color name="botonCambioPass2">#dfd6d7</color>
+    <color name="botonCambioPass3">#eb492e</color>
+    <color name="puntuacion1">#2a343c</color>
+    <color name="puntuacion2">#8d8692</color>
+    <color name="rojoCasco">#b3343b</color>
+</resources>
+
+
+

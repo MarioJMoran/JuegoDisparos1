@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lukeart"
+    android:gravity="center"
+    tools:context=".DetalleJugador">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <!--FOTO DE PERFIL-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImagenDetalle"
+            android:layout_gravity="left"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <!--NOMBRE-->
+        <TextView
+            android:id="@+id/NombreDetalle"
+            android:text="@string/NombreDetalle"
+            android:textColor="@color/estadisticasJug"
+            android:textSize="27sp"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <!--PUNTUACION-->
+        <TextView
+            android:id="@+id/PuntuacionDetalle"
+            android:text="@string/PuntuacionDetalle"
+            android:textColor="@color/estadisticasJug"
+            android:textSize="40sp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--PAIS-->
+        <TextView
+            android:id="@+id/PaisDetalle"
+            android:text="@string/PaisDetalle"
+            android:textColor="@color/estadisticasJug"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <!--FECHA-->
+        <TextView
+            android:id="@+id/FechaDetalle"
+            android:text="@string/FechaDetalle"
+            android:textColor="@color/estadisticasJug"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--INFORMACION JUGADOR-->
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/InformacionDetalle"
+            android:text="@string/InformacionDetalle"
+            android:textColor="@color/estadisticasJug"
+            android:textSize="35sp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--CORREO-->
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/CorreoDetalle"
+            android:text="@string/CorreoDetalle"
+            android:textColor="#0489B1"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

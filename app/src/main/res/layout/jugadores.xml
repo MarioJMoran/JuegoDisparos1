@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    android:backgroundTint="@color/rankingJug2"
+    app:contentPadding="5dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="@drawable/rankingjugadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--IMAGEN JUGADOR-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImagenJugador"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/falcon"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--NOMBRE JUGADOR-->
+            <TextView
+                android:id="@+id/NombreJugador"
+                android:text="@string/NombreJugador"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--PAIS JUGADOR-->
+            <TextView
+                android:id="@+id/PaisJugador"
+                android:text="@string/PaisJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--PUNTUACION JUGADOR-->
+            <TextView
+                android:id="@+id/PuntuacionJugador"
+                android:text="@string/PuntuacionJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--FECHA JUGADOR OCULTO-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/FechaJugador"
+                android:text="@string/FechaJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--CORREO JUGADOR OCULTO-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/CorreoJugador"
+                android:text="@string/CorreoJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

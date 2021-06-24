@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "734909661401",
+    "project_id": "juego-star-wars",
+    "storage_bucket": "juego-star-wars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734909661401:android:bc29072d639f267c777ec8",
+        "android_client_info": {
+          "package_name": "com.w0w23gaming.juegodisparos1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734909661401-c4g2oblldu6u3t69voch54eb29m4do5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.w0w23gaming.juegodisparos1",
+            "certificate_hash": "a0fcb8faf6e6509cd51c82b147b21e998fd1440d"
+          }
+        },
+        {
+          "client_id": "734909661401-vrer4iudfe51h46rdjihi67hlvm95c0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS4BgUlG9hpF-23axjuD7o1B5Nj2K46dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734909661401-vrer4iudfe51h46rdjihi67hlvm95c0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

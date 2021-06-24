@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.w0w23gaming.juegodisparos1">
+    <!-- PERMISO PARA ESCRIBIR FUERA DE LA APP, EN ALMACENIMIENTO EXTERNO -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--PERMISO PARA USAR HYPERLINKS-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_chew"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_chew_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JuegoDisparos1">
+        <activity android:name=".ResetPass"></activity>
+        <activity android:name=".CambioPass" />
+        <activity android:name=".DetalleJugador" />
+        <activity android:name=".Ranking" />
+        <activity android:name=".EscenarioJuego" />
+        <activity android:name=".Login" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Registro" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

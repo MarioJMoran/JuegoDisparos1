@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Real Heroes</string>
+
+    <!--CLASE MAIN ACTIVITY-->
+    <string name="BTNLOGIN">acceso</string>
+    <string name="BTNREGISTRO">Registro</string>
+
+    <!--CLASE REGISTRO-->
+    <string name="emailEt">Correo</string>
+    <string name="passwordEt">Contraseña</string>
+    <string name="nombreEt">Alias</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Pais">Pais</string>
+
+    <!--CLASE LOGIN-->
+    <string name="emailLogin">Correo</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="BotonLogin">Acceso</string>
+    <string name="BotonRestablecer">Restablecer Contraseña</string>
+
+    <!--CLASE MENU-->
+    <string name="PerfilTxt">Perfil</string>
+
+    <string name="JugarBtn">Jugar</string>
+    <string name="RankingBtn">Ranking</string>
+    <string name="CerrarSesionBtn">Cerrar Sesion</string>
+    <string name="InfoBtn">info</string>
+    <string name="editarBtn">editar</string>
+    <string name="cambiarpassBtn">cambiar contraseña</string>
+
+    <string name="Puntuaciontxt">Puntuacion</string>
+    <string name="Navestxt">--</string>
+    <string name="uid">--</string>
+    <string name="email">--</string>
+    <string name="nick">--</string>
+    <string name="Paistxt">--</string>
+    <string name="fecha">--</string>
+
+    <string name="Menutxt">Menu</string>
+
+    <!--ESCENARIO-->
+    <string name="TvContador">0</string>
+    <string name="TvNombre">----</string>
+    <string name="TvTiempo">0s</string>
+
+    <!--ESCENARIO PANTALLA-->
+    <string name="AnchoTv">--</string>
+    <string name="AltoTv">--</string>
+
+    <!--GAMEOVER-->
+    <string name="finTxt">¡Fin!</string>
+    <string name="killsTxt">Has Destruido</string>
+    <string name="NumeroTxt">--</string>
+    <string name="PlayAgain">Jugar</string>
+    <string name="irMenu">Menu</string>
+    <string name="Puntuacion">ver Puntuacion</string>
+
+    <!--LISTA JUGADORES-->
+    <string name="NombreJugador">Nombre</string>
+    <string name="PaisJugador">Pais</string>
+    <string name="PuntuacionJugador">Puntuacion</string>
+    <string name="FechaJugador">Fecha</string>
+    <string name="CorreoJugador">Correo</string>
+
+    <!--DETALLES JUGADOR-->
+    <string name="InformacionDetalle">informacion Jugador</string>
+    <string name="NombreDetalle">Alias</string>
+    <string name="CorreoDetalle">Email</string>
+    <string name="PuntuacionDetalle">Puntuacion</string>
+    <string name="PaisDetalle">Pais</string>
+    <string name="FechaDetalle">Fecha de Registro</string>
+
+    <!--CAMBIO PASS-->
+    <string name="ActualPass">Actual contraseña</string>
+    <string name="NuevoPass">Nueva contraseña</string>
+    <string name="CambiarPass">Cambiar contraseña</string>
+
+    <!--INFO-->
+    <string name="DesarrolladoPorTxt">Desarrollado Por:</string>
+    <string name="DesarrolladorTxt">Mario J. Moran Fernandez</string>
+    <string name="LinkLinkedin">Linkedin<a href="https://www.linkedin.com/in/mariojmoran/"></a></string>
+    <string name="ok">ok</string>
+
+    <!--RESET PASS-->
+    <string name="resetPass">Correo Electrónico</string>
+    <string name="resetBtn">Restablecer Contraseña</string>
+
+</resources>

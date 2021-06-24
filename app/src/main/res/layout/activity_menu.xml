@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenu"
+    tools:context=".Menu">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!--DATOS PERFIL JUGADOR-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PerfilTxt"
+                android:text="@string/PerfilTxt"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--IMAGEN PERFIL-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgPerfil"
+                android:src="@drawable/oscuro"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <!--UID-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/uid"
+                android:text="@string/uid"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--EMAIL-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/email"
+                android:text="@string/email"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--NICK-->
+            <TextView
+                android:id="@+id/nick"
+                android:text="@string/nick"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--PAIS-->
+            <TextView
+                android:id="@+id/Paistxt"
+                android:text="@string/Paistxt"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--FECHA-->
+            <TextView
+                android:id="@+id/fecha"
+                android:text="@string/fecha"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--TEXTO PUNTUACION-->
+        <TextView
+            android:id="@+id/Puntuaciontxt"
+            android:text="@string/Puntuaciontxt"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp">
+
+            <!--NAVES DESTRUIDAS-->
+            <TextView
+                android:id="@+id/Navestxt"
+                android:text="@string/Navestxt"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--IMAGEN-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image"
+                android:src="@drawable/estrellamuerte"
+                android:layout_marginStart="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:background="@drawable/strokemenu">
+
+            <!--MENU TXT-->
+            <TextView
+                android:id="@+id/Menutxt"
+                android:text="@string/Menutxt"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/rojoStar"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--BOTON JUGAR-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/JugarBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/JugarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+            <!--BOTON RANKING-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/RankingBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/RankingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+            <!--BOTON CERRAR SESION-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/CerrarSesionBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/CerrarSesionBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+            <!--BOTON EDITAR PERFIL-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/editarBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/editarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+            <!--BOTON CAMBIAR PASS-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cambiarpassBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cambiarpassBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+            <!--BOTON INFO-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/InfoBtn"
+                android:background="@drawable/botonmenuactivity"
+                android:textColor="@color/rojoStar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="@string/InfoBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
